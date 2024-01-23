@@ -19,15 +19,11 @@ range(7, 6); // []
 //     return arr;
 //   }
 
-
 //   arr.push(start);
 //   start++;
 
-
 //   return arr.concat(range(start, end));
 // }
-
-
 
 let range = (start, end, array = []) => {
   if (start > end) {
@@ -40,10 +36,7 @@ let range = (start, end, array = []) => {
     array.push(start);
   }
   return range(start + 1, end, array);
-}
-
-
-
+};
 
 console.log(range(1, 5)); // [1, 2, 3, 4])
 console.log(range(3, 4)); // [3]

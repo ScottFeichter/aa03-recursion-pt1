@@ -10,15 +10,7 @@ range(3, 4); // [3]
 range(7, 6); // []
 ***********************************************************************/
 
-
-function range(start, end) {
-  if (end < start) {
-    return [];
-  }
-  
-
-}
-
+function range(start, end) {}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {

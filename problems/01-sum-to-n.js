@@ -20,6 +20,13 @@ sumToN(-8)  // returns null
 //   return n + sumToN(n - 1);
 // }
 
+function sumToN(n) {
+  // if the input is less than 0 return null, BASE CASE
+  if (n < 0) return null;
+  // return input plus recursive callback of input minus 1 RECURSIVE STEP
+  return n + sumToN(n - 1)
+}
+
 console.log(sumToN(5)); // returns 15)
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
